@@ -9,7 +9,7 @@ ServiceMaps:
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
       isBulk: false
-      timeStampField: $.RequestBody.createdTime
+      timeStampField: $.createdTime
       jsonPath: $.RequestBody
       
   - topic: hc-service-update
@@ -19,7 +19,7 @@ ServiceMaps:
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
       isBulk: false
-      timeStampField: $.RequestBody.createdTime
+      timeStampField: $.createdTime
       jsonPath: $.RequestBody
       
   - topic: hc-service-edit
@@ -29,7 +29,7 @@ ServiceMaps:
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
       isBulk: false
-      timeStampField: $.RequestBody.createdTime
+      timeStampField: $.createdTime
       jsonPath: $.RequestBody
             
   - topic: hc-services-editSeviceRequestType
@@ -39,5 +39,5 @@ ServiceMaps:
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
       isBulk: false
-      timeStampField: $.RequestBody.createdTime
+      timeStampField: $.createdTime
       jsonPath: $.RequestBody
