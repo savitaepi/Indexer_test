@@ -8,7 +8,7 @@ ServiceMaps:
     - name: horticulture-v1
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.RequestBody.createdTime
       jsonPath: $.RequestBody
       
@@ -18,7 +18,7 @@ ServiceMaps:
     - name: horticulture-v1
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.RequestBody.createdTime
       jsonPath: $.RequestBody
       
@@ -28,7 +28,7 @@ ServiceMaps:
     - name: horticulture-v1
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.RequestBody.createdTime
       jsonPath: $.RequestBody
             
@@ -38,6 +38,6 @@ ServiceMaps:
     - name: horticulture-v1
       type: serviceRequest
       id: $.service_request_uuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.RequestBody.createdTime
       jsonPath: $.RequestBody
